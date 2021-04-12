@@ -1,0 +1,56 @@
+
+@keyframes hover-galerija {
+    0% {
+        border:2px solid rgb(105, 3, 3);
+        color:rgb(105, 3, 3);
+        transform:translateY(0);
+            }
+
+    33% {
+        border:2px solid rgb(4, 64, 114);
+        color:rgb(4, 64, 114);
+            }
+
+    66% {
+        border:2px solid rgb(149, 12, 161);
+        color:rgb(149, 12, 161);
+            }
+
+
+    100% {
+        border:2px solid rgb(105, 3, 3);
+        color: rgb(105, 3, 3);
+        transform:translateY(-10px);
+        
+    }
+   
+}
+
+
+
+@keyframes galerija {
+    0% {
+        border:2px solid rgb(105, 3, 3);
+        color:rgb(105, 3, 3);
+        
+            }
+
+    33% {
+        border:2px solid rgb(4, 64, 114);
+        color:rgb(4, 64, 114);
+        
+            }
+
+    66% {
+        border:2px solid rgb(149, 12, 161);
+        color:rgb(149, 12, 161);
+        
+            }
+
+
+    100% {
+        border:2px solid rgb(105, 3, 3);
+        color: rgb(105, 3, 3);
+        
+    }
+}

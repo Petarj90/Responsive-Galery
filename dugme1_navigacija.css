@@ -1,0 +1,55 @@
+
+@keyframes dugme1 {
+    0% {
+        border:1px solid rgb(105, 3, 3);
+        color:rgb(105, 3, 3);
+        margin-bottom:0px;
+            }
+
+    33% {
+        border:1px solid rgb(4, 64, 114);
+        color:rgb(4, 64, 114);
+        margin-bottom:1300px;
+            }
+
+    66% {
+        border:1px solid rgb(149, 12, 161);
+        color:rgb(149, 12, 161);
+        margin-bottom:0px;
+            }
+
+
+    100% {
+        border:1px solid rgb(105, 3, 3);
+        color: rgb(105, 3, 3);
+        margin-bottom:1300px;
+    }
+}
+
+
+
+@keyframes bounce {
+    0% {
+        margin-top:50px;
+            }
+
+    25% {
+        margin-top:60px;
+        
+            }
+
+    50% {
+        margin-top:50px;
+        
+            }
+
+    75% {
+        margin-top:60px;
+                
+            }
+
+
+    100% {
+        margin-top:50px;
+    }
+}

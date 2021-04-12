@@ -1,0 +1,205 @@
+
+/* Muzicar */
+
+@media screen and (max-width: 1600px){
+    #slika-muzicar {
+        padding-left:200px;
+    }
+    #tekst-muzicar {
+        padding-right:200px;
+        padding-left:50px;     
+    }
+
+    #reklama {
+        height:5vh;
+    }
+
+    #reklama2 {
+        display:none;
+    }
+
+    #dobrodoslica {
+        margin-right:650px;
+        animation:none;
+    }
+
+}
+@media screen and (max-width: 1424px ) {
+    #slika-muzicar {
+        padding-left:100px;
+    }
+    #tekst-muzicar {
+        padding-right:100px;
+        padding-left:50px;   
+    }
+    #reklama {
+        height:5vh;
+    }
+
+    #reklama2 {
+        display:none;
+    }
+    #dobrodoslica {
+        margin-right:550px;
+        animation:none;
+    }
+}
+
+@media screen and (max-width: 1190px ) {
+    #slika-muzicar {
+        display:none;
+    }
+    #tekst-muzicar {
+        padding-right:200px;
+        padding-left:200px;
+        text-align:center;    
+    }
+    #reklama {
+        height:5vh;
+    }
+
+    #reklama2 {
+        display:none;
+    }
+    #dobrodoslica {
+        margin-right:350px;
+        animation:none;
+    }
+}
+
+@media screen and (max-width: 790px ){
+    #slika-muzicar {
+        display:none;
+    }
+    #tekst-muzicar {
+        padding-right:100px;
+        padding-left:100px;
+        text-align:center;      
+    }
+    #reklama {
+        height:5vh;
+    }
+
+    #reklama2 {
+        display:none;
+    }
+    
+}
+
+
+@media screen and (max-width: 568px ){
+    #tekst-muzicar p:nth-child(3) {
+        display:none;
+    }
+    #dobrodoslica {
+        margin-right:250px;
+    }
+}
+
+
+/*dobro doslica*/
+
+@media screen and (max-width: 990px ){
+    #dobrodoslica {
+        margin-right:250px;
+        animation:none;
+    }
+}
+
+@media screen and (max-width: 868px ){
+    #tekst-muzicar p:nth-child(3) {
+        display:none;
+    }
+    #dobrodoslica {
+        margin-right:50px;
+    }
+}
+
+@media screen and (max-width: 668px ) {
+    #dobrodoslica {
+        margin-right:50px;
+        
+    }
+    #dobrodoslica p:nth-child(2) {
+        font-size:20px;
+    }
+    #dobrodoslica h2:nth-child(1) {
+        font-size:50px;
+        padding-top:40px;
+    }
+}
+
+/* Galerija */
+@media screen and (max-width: 1454px ){
+    #galerija{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+            }
+    #linija {
+        text-align:center;
+    }
+        }
+@media screen and (max-width: 1224px ){
+    #galerija{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+            }
+        } 
+    @media screen and (max-width: 968px) {
+    #galerija {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+            }
+        }
+ 
+    @media screen and (max-width: 714px) {
+    #galerija {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(10,1fr);
+            }
+        }
+
+
+
+/* footer */
+   
+@media screen and (max-width: 1324px ){
+ 
+}
+
+
+@media screen and (max-width: 1024px ){
+        #p5 {
+            left:50px;
+        }
+    
+        
+        } 
+
+        
+    @media screen and (max-width: 768px) {
+        #p3 {
+            display:none;
+        }
+        #p5 {
+            left:50px;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+    
+    #p5 {
+            display:none;
+        }  
+
+    #p3 {
+            display:none;
+        }
+
+    #p4 {
+        padding-left:100px;
+    }
+    #footer-header>p {
+        text-align:center;
+    }
+    }
